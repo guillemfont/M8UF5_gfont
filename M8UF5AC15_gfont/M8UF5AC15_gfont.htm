@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Formulari d'enviament</title>
+			<script type="text/javascript">
+				function validar(){
+				var psswd=document.getElementById("psswd").value;
+				var confpsswd=document.getElementById("confpsswd").value;
+				if(psswd==confpsswd){
+				return true;
+				}
+				else{
+				alert("No coincideix");
+				return false;
+				}
+				}
+				</script>
+		</head>
+		<body>
+			<table align="center" style="width: 50%;" border="0" bgcolor="#EFEFEF">
+				<tr bgcolor="#306090">
+					<td colspan="3" style="color:#FDFEFE;"><strong>Enviar misatge</strong></font></td>
+					<td align="right"><img src="C:\SMX\M08\UF5\M8UF5_gfont\M8UF5AC15_gfont\img\gb_reload_s.gif"</td>
+				</tr>
+				<tr>
+					<td colspan="1" align="right" style="width: 20%;"><strong>Nom:</strong></td>
+					<td colspan="3" align="left">
+						<form action="" method="GET">
+							<p><input type="text" name="nom" id="nom" max="50"></p>
+					</td>
+				</tr>
+				<tr>
+					<td align="right" style="width: 100%;"><strong>E-Mail:</strong></td>
+					<td align="left">
+						<form action="" method="GET">
+							<p><input type="email" name="nom" id="nom" maxlength="50" required></p>
+					</td>
+				</tr>
+				<tr>
+					<td align="right" style="width: 20%;"><strong>Arxiu:</strong></td>
+					<td align="left">
+						<form action="" method="GET">
+							<p><input type="text" name="Arxiu" id="Arxiu"></p>
+					</td>
+					<td align="left">
+						<form action="" method="GET">
+							<p><input type="file" name="archivo" id="archivo"></p>
+					</td>
+				<tr>
+						<td align="right" style="width: 20%;"><strong>Imatge:</strong></td>
+						<td align="left">
+							<form action="" method="GET">
+								<p><input type="text" name="Arxiu" id="Arxiu"></p>
+						</td>
+						<td align="left">
+							<form action="" method="GET">
+								<p><input type="file" name="archivo" id="archivo"></p>
+						</td>
+				</tr>
+				<tr>
+					<td colspan="3" align="center"><font size=1>El tamany de l'arxiu i l'imatge no pot exedir els 4 KBytes</font></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center" style="width: 20%;"><strong>Requereixo resposta:</strong></td>
+					<td align="left">
+						<form action="" method="GET">
+							<input type="radio" name="archivo" value="s" required>Si
+							<input type="radio" name="archivo" value="s" required>No
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4" align="center"><strong>Missatge:</strong></td>
+				</tr>
+				<tr>
+					<td colspan="4" align="center">
+					<form action="" method="GET">
+						<textarea name="text" rows="5" cols="45"></textarea>
+					</form>
+				</tr>	
+				<tr>
+					<td align="right" style="width: 20%;"><strong>Usuari:</strong></td>
+					<td align="left">
+						<form action="" method="GET">
+							<p><input type="text" name="nom" id="nom" maxlength="8"></p>
+					</td>
+				</tr>
+				<tr>
+					<td align="right" style="width: 20%;"><strong>Contraseña:</strong></td>
+					<td align="left">
+						<form action="" method="GET">
+							<p><input type="password" name="nom" id="nom"></p>
+				</tr>
+				<tr>
+					<td align="center" colspan="4">
+						<form>
+							<input type="submit" value="Enviar"> <input type="reset" value="Borrar">
+						</form>
+					</td>
+				</tr>
+			</table>
+			
+			 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
