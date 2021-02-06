@@ -1,0 +1,15 @@
+#footer {
+   position:fixed;
+   left: 0;
+   bottom: 0;
+   width:100%;   
+   background:#175070;
+   height: 50px;
+}
+
+#text {
+   color: white;
+   position: absolute;
+   top: 30%;
+   left: 0%;
+}

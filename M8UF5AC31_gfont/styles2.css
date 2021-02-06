@@ -1,0 +1,137 @@
+* {
+  background-color: #404040;
+}
+
+#total {
+  width: 400px;
+  height: 280px;
+  margin: 30px auto;
+  background-color: blanchedalmond;
+}
+
+#dalt {
+  width: 400px;
+  height: 70px;
+}
+
+#vermell1 {
+  width: 200px;
+  height: 70px;
+  background-color: red;
+  float: left;
+}
+
+#blau {
+  width: 200px;
+  height: 70px;
+  background-color: blue;
+  float: right;
+}
+
+#mig {
+  width: 400px;
+  height: 140px;
+  background-color: burlywood;
+}
+
+#esquerra1 {
+  width: 200px;
+  height: 140px;
+  background-color: hotpink;
+  float: left;
+}
+
+#dreta1 {
+  width: 200px;
+  height: 140px;
+  background-color: floralwhite;
+  float: right;
+}
+
+#blaufosc {
+  width: 200px;
+  height: 70px;
+  background-color: #060e68;
+}
+
+#groc2 {
+  width: 100px;
+  height: 70px;
+  background-color: yellow;
+  float: left;
+}
+
+#blanc {
+  width: 100px;
+  height: 70px;
+  background-color: white;
+  float: right;
+}
+
+#groc1 {
+  width: 100px;
+  height: 140px;
+  background-color: yellow;
+  float: left;
+}
+
+#marrofort {
+  width: 100px;
+  height: 70px;
+  background-color: #352546;
+  float: right;
+}
+
+#rosa {
+  width: 100px;
+  height: 70px;
+  background-color: #e41ab6;
+  float: right;
+}
+
+#esquerra3 {
+  width: 200px;
+  height: 70px;
+  background-color: royalblue;
+  float: left;
+}
+
+#dreta3 {
+  width: 200px;
+  height: 70px;
+  background-color: green;
+  float: right;
+}
+
+#lila {
+  width: 100px;
+  height: 70px;
+  background-color: #938edf;
+  float: left;
+}
+
+#marro {
+  width: 100px;
+  height: 70px;
+  background-color: #6c3322;
+  float: right;
+}
+
+#vermell2 {
+  width: 100px;
+  height: 70px;
+  background-color: red;
+  float: left;
+}
+
+#marroextrany {
+  width: 100px;
+  height: 70px;
+  background-color: #6b1106;
+  float: right;
+}
+
+.textblanc {
+  color: white;
+  background-color: transparent;
+}

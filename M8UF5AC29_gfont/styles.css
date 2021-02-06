@@ -1,0 +1,39 @@
+.container {
+    margin: auto;
+    width: 650px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 1fr 1fr 1fr 0.5fr 1fr 1fr;
+}
+
+.container div {
+    border: 1px solid black;
+}
+
+.container .dies {
+    background-color: #BFBFBF;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 8px;
+    text-transform: uppercase;
+}
+
+.container .hora {
+    background-color: #BFBFBF;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.container .hora2 {
+    background-color: #BFBFBF;
+    text-align: center;
+    padding-top: 25%;
+}
+
+.pati {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 8px;
+}

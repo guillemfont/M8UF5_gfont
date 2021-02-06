@@ -1,0 +1,44 @@
+#titol {
+    color:teal
+}
+
+.subtitol {
+    color:blue
+}
+
+.destacat {
+    color: orange;
+}
+
+.vermell {
+    color: red;
+           }
+
+#blau {
+    color: blue;
+}
+
+.especial {
+    color: orange;
+}
+
+#special {
+    color: purple;
+}
+
+.verd {
+    color: green;
+}
+
+table {
+    border-collapse: collapse;
+    width: 350px;
+  }
+
+#adicional {
+    color: olive;
+}
+
+#rosa {
+    color: fuchsia;
+}

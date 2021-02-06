@@ -1,0 +1,37 @@
+.box {
+   width: 720px;
+   margin: 0px auto;
+}
+
+.box2 {
+   display: inline-block;
+   width: 200px;
+   height: 100px;
+   margin: 1em;
+   border: 2px solid #17BA12;
+}
+
+.colors1 {
+   width: 720px;
+   height: 45px;
+   margin: 0px auto;
+   border: 1px solid green;
+   border-style:dashed; 
+}
+
+.colors2 {
+   width: 720px;
+   height: 45px;
+   margin: 0px auto;
+   border: 1px solid #201770;
+   border-style:dashed; 
+}
+
+.colors3 {
+   width: 720px;
+   height: 45px;
+   margin: 0px auto;
+   border: 1px solid red;
+   border-style:dashed; 
+}
+

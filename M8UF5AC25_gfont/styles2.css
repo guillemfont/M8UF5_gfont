@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenidor {
+    width: 1200px;
+    height: 1400px;
+    margin: 0.5em auto;
+    padding: 0.5em;
+    border: 10px solid #8A8989;
+}
+
+#header {
+    height: 15%;
+    border: 10px solid #E22B2B;
+    margin: 1.5em;
+}
+
+#contingut {
+    height: 60%;
+    background-color: white;
+    margin: 1.5em;
+}
+
+#footer {
+    height: 16%;
+    border: 10px solid #8E07E4;
+    margin: 1.5em;
+}
+
+#aside {
+    height: 97%;
+    width: 35%;
+    border: 10px solid #0EE407;
+    float: left;
+}
+
+#content {
+    height: 100%;
+    width: 62%;
+    float:right
+}
+
+#nav {
+    width: 100%;
+    height: 20%;
+    border: 10px solid #0799E4;
+    margin-bottom: 5.5%;
+}
+
+#espai {
+    width: 100%;
+    height: 5%;
+    background-color: white;
+}
+
+#article {
+    width: 100%;
+    height: 70%;
+    border: 10px solid #E0E407;
+    float: unset;
+}

@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: url(img/fons.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*Contanidor amb la navegació i la secció*/
+.container {
+  margin: auto;
+  width: 45%;
+  height: 450px;
+}
+
+/*Navegació*/
+nav {
+    width: 100%;
+    height: 115px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*Navegació de l'esquerra*/
+.container .nav-esquerra {
+    width: 60%;
+    height: 10%;
+  }
+
+.container .nav-esquerra .boto-esquerra {
+  width: 22%;
+  height: 80px;
+  background-color: black;
+  border-radius: 50%;
+  margin-top: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 1%;
+}
+
+.container .nav-esquerra .boto-esquerra a {
+  color: white;
+}
+
+/*Navegació de la dreta*/
+.container .nav-dreta {
+    width: 40%;
+    height: 20%;
+  }
+
+.container .nav-dreta ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.container .nav-dreta ul li {
+  margin: 20px 10px;
+  border-radius: 50%;
+  width: 30%;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.boto-detra-inici {
+  background-color: #434343;
+}
+
+.boto-detra {
+  background-color: #6DD7EA;
+}
+
+.container .nav-dreta ul li a {
+  color: white;
+}
+
+/*Secció*/
+section {
+    width: 100%;
+    height: 280px;
+} 
+
+section h1 {
+    font-size: 75px;
+    font-family: 'Roboto', sans-serif;
+    color: #585858;
+    font-weight: 600;
+}
+
+/*Article fora del contenidor principal*/
+article {
+    width: 100%;
+    height: 230px;
+    background-color: #747474;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+article .imatges {
+    border-radius: 50%;
+    width: 185px;
+    height: 185px;
+    margin: 0 35px;
+}
+
+article p {
+  width: 185px;
+  height: 25px;
+  margin: 0 35px;
+  padding-left: 25%;
+  font-size: 22px;
+  color: white;
+}
+
+/*Peu de pàgina*/
+footer {
+  margin: auto;
+  width: 40%;
+  height: 50px;
+  margin-top: 0;
+}
+
+footer .footer-imatges {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+}
+
+footer .imatges {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+}
+
+footer .copy p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+

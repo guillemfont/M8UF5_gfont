@@ -1,0 +1,101 @@
+html {
+  background-image: url("IMAGEN.png");
+  background-attachment: fixed;
+  background-position: center;
+}
+
+table {
+  width: 70%;
+}
+
+.p1 {
+  background-color: #f9e907;
+}
+
+.p1:hover {
+  background-color: #ccc;
+}
+
+.p2 {
+  background-color: #f9ca07;
+}
+
+.p2:hover {
+  background-color: #ccc;
+}
+
+.p3 {
+  background-color: #f9af07;
+}
+
+.p3:hover {
+  background-color: #ccc;
+}
+
+.p4 {
+  background-color: #f9a307;
+}
+
+.p4:hover {
+  background-color: #ccc;
+}
+
+.p5 {
+  background-color: #f98807;
+}
+
+.p5:hover {
+  background-color: #ccc;
+}
+
+.p6 {
+  background-color: #f96907;
+}
+
+.p6:hover {
+  background-color: #ccc;
+}
+
+.p7 {
+  background-color: #f94207;
+}
+
+.p7:hover {
+  background-color: #ccc;
+}
+
+.p8 {
+  background-color: #c70039;
+}
+
+.p8:hover {
+  background-color: #ccc;
+}
+
+.p9 {
+  background-color: #900c3f;
+}
+
+.p9:hover {
+  background-color: #ccc;
+}
+
+.p10 {
+  background-color: #581845;
+}
+
+.p10:hover {
+  background-color: #ccc;
+}
+
+.subrallat {
+  text-decoration: underline;
+}
+
+.subrallat2 {
+  text-decoration: line-through;
+}
+
+.subrallat3 {
+  font-weight: bold;
+}

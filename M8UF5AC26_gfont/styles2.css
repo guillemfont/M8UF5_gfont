@@ -1,0 +1,141 @@
+.grid-container {
+  margin: auto;
+  width: 90%;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "blanc1 groc1 groc1 blau1 blau1 vermell1 vermell1 groc3 groc4"
+    "blanc1 groc1 groc1 blau1 blau1 vermell1 vermell1 groc3 vermell5"
+    "blanc2 groc1 groc1 blau1 blau1 vermell1 vermell1 blanc5 blanc6"
+    "blanc2 groc1 groc1 groc2 groc2 vermell1 vermell1 vermell6 vermell6"
+    "blanc2 groc1 groc1 groc2 groc2 vermell1 vermell1 vermell6 vermell6"
+    "blanc2 groc1 groc1 groc2 groc2 vermell1 vermell1 vermell6 vermell6"
+    "blanc2 groc1 groc1 groc2 groc2 vermell2 vermell3 groc5 groc6"
+    "blanc3 groc1 groc1 groc2 groc2 blau2 vermell4 groc5 groc6"
+    "blanc4 groc1 groc1 groc2 groc2 blau2 vermell4 groc5 groc6";
+}
+.blanc1 {
+  grid-area: blanc1;
+  background-color: white;
+  border: 5px solid black;
+  border-top: none;
+  border-left: none;
+}
+.blanc3 {
+  grid-area: blanc3;
+  background-color: white;
+  border: 5px solid black;
+  border-left: none;
+}
+.blanc4 {
+  grid-area: blanc4;
+  background-color: white;
+  border: 5px solid black;
+  border-bottom: none;
+  border-left: none;
+}
+.blanc2 {
+  grid-area: blanc2;
+  background-color: white;
+  border: 5px solid black;
+  border-left: none;
+}
+.groc1 {
+  grid-area: groc1;
+  background-color: yellow;
+  border: 5px solid black;
+  border-top: none;
+  border-bottom: none;
+}
+.blau1 {
+  grid-area: blau1;
+  background-color: blue;
+  border: 5px solid black;
+  border-top: none;
+}
+.groc2 {
+  grid-area: groc2;
+  background-color: yellow;
+  border: 5px solid black;
+  border-bottom: none;
+}
+.blau2 {
+  grid-area: blau2;
+  background-color: blue;
+  border: 5px solid black;
+  border-bottom: none;
+}
+.vermell4 {
+  grid-area: vermell4;
+  background-color: red;
+  border: 5px solid black;
+  border-bottom: none;
+}
+.vermell2 {
+  grid-area: vermell2;
+  background-color: red;
+  border: 5px solid black;
+}
+.vermell3 {
+  grid-area: vermell3;
+  background-color: red;
+  border: 5px solid black;
+}
+.vermell1 {
+  grid-area: vermell1;
+  background-color: red;
+  border: 5px solid black;
+  border-top: none;
+}
+.groc5 {
+  grid-area: groc5;
+  background-color: yellow;
+  border: 5px solid black;
+  border-bottom: none;
+}
+.groc6 {
+  grid-area: groc6;
+  background-color: yellow;
+  border: 5px solid black;
+  border-bottom: none;
+  border-right: none;
+}
+.groc4 {
+  grid-area: groc4;
+  background-color: yellow;
+  border: 5px solid black;
+  border-top: none;
+  border-right: none;
+}
+.groc3 {
+  grid-area: groc3;
+  background-color: yellow;
+  border: 5px solid black;
+  border-top: none;
+}
+.vermell5 {
+  grid-area: vermell5;
+  background-color: red;
+  border: 5px solid black;
+  border-right: none;
+}
+.blanc5 {
+  grid-area: blanc5;
+  background-color: white;
+  border: 5px solid black;
+}
+.blanc6 {
+  grid-area: blanc6;
+  background-color: white;
+  border: 5px solid black;
+  border-right: none;
+}
+.vermell6 {
+  grid-area: vermell6;
+  background-color: red;
+  border: 5px solid black;
+  border-right: none;
+}

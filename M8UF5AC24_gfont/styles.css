@@ -1,0 +1,15 @@
+.entre_setmana {
+    text-align: center;width: 110px;background-color: #2B0DF6; color: white;
+}
+
+.entre_setmana:hover {
+    border: 1px solid red
+}
+
+.cap_de_setmana {
+    text-align: center;width: 110px;background-color: green; color: white;
+}
+
+.cap_de_setmana:hover {
+    border: 1px solid red; color: black; background-color: gray;
+}
